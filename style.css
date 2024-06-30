@@ -1,0 +1,532 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.section1 {
+  background-color: #ffffff;
+  padding: 20px 0px;
+}
+
+/* navbar section  */
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.navbar-left > img {
+  height: 50px;
+  width: 50px;
+  margin: 8px 0px;
+}
+
+.navbar-left > input {
+  background-image: url(img/magnifying-glass-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 20px;
+  border-radius: 100px;
+  height: 40px;
+  width: 200px;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  padding: 0px 35px;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+.img-1 {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  padding: 9px;
+}
+
+.bar {
+  text-decoration: none;
+  color: #77787c;
+  font-size: 25px;
+  background-color: none;
+}
+
+.navbar-center > a {
+  text-decoration: none;
+  color: #77787c;
+  font-size: 25px;
+  background-color: none;
+}
+
+.navbar-right > img {
+  height: 50px;
+  width: 50px;
+  margin: 8px 0px;
+  border-radius: 50%;
+}
+
+.right-icons {
+  color: #000000;
+  font-size: 26px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin: 10px 0px;
+  padding: 8px;
+}
+
+.navbar-center > a:hover {
+  color: blue;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.right-icons:hover {
+  color: blue;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.section2 {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+/* left sections */
+.secleft {
+  max-height: 200vh;
+  overflow: scroll;
+  width: 25%;
+  background-color: #f2f2f2;
+  margin: 0px;
+}
+
+.user > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+
+.user > img {
+  height: 50px;
+  width: 50px;
+  margin: 8px 0px;
+  border-radius: 50%;
+}
+
+.iconstext > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+
+.iconstext > i {
+  color: #0000ff;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+
+.grouptext > img {
+  height: 40px;
+  width: 40px;
+  margin: 10px 5px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.grouptext > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 5px;
+}
+
+.sech > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 5px;
+  color: #77787c;
+}
+
+.sech > a {
+  color: blue;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 8px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.iconstext1 > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+
+.iconstext1 > i {
+  color: #000000;
+  font-size: 26px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 10px 0px;
+  padding: 8px;
+}
+.user:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.iconstext:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.iconstext1:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.grouptext:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* right section */
+.righttext > h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 20px 5px;
+  color: #77787c;
+}
+.sponser > img {
+  height: 100px;
+  width: 100px;
+  margin: 10px 5px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.sponser > h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 40px 5px;
+}
+.contact > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 5px;
+  color: #77787c;
+}
+.iconsright > i {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px 5px;
+}
+.friend > img {
+  height: 40px;
+  width: 40px;
+  margin: 8px 0px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.friend > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 5px;
+}
+.rightsec {
+  margin-left: auto;
+}
+.chats > h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 5px;
+  color: #77787c;
+}
+.chat-text > i {
+  color: #000000;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.chat-text > h6 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 5px;
+}
+.friend:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.chat-text:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.sponser:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* center section */
+.seccenter {
+  background-color: #f2f2f2;
+  width: 55%;
+}
+.storybox {
+  width: 100%;
+  height: 380px;
+  padding: 20px 0px;
+}
+.upload,
+.friendstory {
+  height: 340px;
+  width: 145px;
+  overflow: hidden;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0px 4px;
+}
+.upload > img,
+.friendstory > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.uploadtext {
+  height: 100%;
+  width: 150px;
+  position: relative;
+  bottom: 50px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.uploadtext > img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  bottom: 15px;
+  border-radius: 50%;
+}
+.uploadtext > p {
+  font-size: 15px;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #000000;
+}
+.friendprofle {
+  position: relative;
+  bottom: 340px;
+  margin: 10px;
+}
+.friendprofle > img {
+  height: 50px;
+  width: 50px;
+  border: 5px solid #45abff;
+  border-radius: 50%;
+}
+.friendname {
+  position: relative;
+  bottom: 90px;
+  padding: 5px;
+}
+.friendname > p {
+  font-size: 10px;
+  position: relative;
+  bottom: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.createpost {
+  background-color: #fff;
+  height: 180px;
+  width: 80%;
+  padding: 5px;
+  margin: 10px 0px;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.proflepic > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+}
+.post-tittle {
+  height: 40px;
+  border-radius: 100px;
+  text-transform: capitalize;
+  color: #000000;
+  font-size: 15px;
+  padding: 10px;
+  margin: 20px 10px !important;
+  outline: none;
+  border: 1px solid black;
+}
+.icons > i {
+  font-size: 20px;
+  margin: 12px 5px;
+  cursor: pointer;
+}
+.icons > a {
+  font-size: 16px;
+  margin: 10px 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.icons:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.friendpost {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
+.userdetail > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.userdetail > h5 {
+  font-size: 16px;
+  margin: 10px 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+.time {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+.topicons > i {
+  font-size: 20px;
+  margin: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.postimg {
+  width: 100%;
+  height: 359px;
+}
+.postimg > img {
+  height: 100%;
+  width: 100%;
+}
+.left > img {
+  height: 30px;
+  width: 30px;
+  margin: 10px 0px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.left > a,
+.right > a {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  margin: 15px 5px;
+  text-decoration: none;
+}
+.review > a,
+i {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px;
+}
+.review > a:hover {
+  background-color: #cccccc79;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 10px;
+}
+.secleft::-webkit-scrollbar {
+  width: 9px;
+}
+.secleft::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+  display: none;
+}
+.secleft::-webkit-scrollbar-thumb {
+  display: none;
+}
+.secleft:hover::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .seccenter {
+    width: 55%;
+  }
+}
+@media (max-width: 1199px) {
+  .seccenter {
+    width: 100%;
+  }
+}
